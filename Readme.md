@@ -136,15 +136,6 @@ plt.show()
 
 **2. Pairplot of Features:**
 
-```python
-sns.pairplot(train_data[['seeds', 'fruitmass', 'clonesize', 'yield']])
-plt.suptitle('Pairplot of Features', y=1.02)
-plt.show()
-```
-
-
-*Figure 2: Pairplot of Features*
-
 ![alt text](image-4.png)
 
 ![alt text](image-5.png)
@@ -158,6 +149,18 @@ plt.show()
 ![alt text](image-9.png)
 
 ![alt text](image-10.png)
+
+
+```python
+sns.pairplot(train_data[['seeds', 'fruitmass', 'clonesize', 'yield']])
+plt.suptitle('Pairplot of Features', y=1.02)
+plt.show()
+```
+
+
+*Figure 2: Pairplot of Features*
+
+
 
 ### Feature Engineering
 
