@@ -69,6 +69,7 @@ print(train_data.describe())
 ![alt text](image-2.png)
 
 
+
 ## Features
 
 - **Exploratory Data Analysis (EDA)**: Visualizes data distributions and relationships to inform feature engineering.
@@ -77,6 +78,9 @@ print(train_data.describe())
 - **Hyperparameter Tuning with Optuna**: Optimizes model parameters using Optuna's TPE sampler.
 - **MAE Evaluation**: Assesses model performance with cross-validated Mean Absolute Error (MAE) scoring.
 - **Submission File Generation**: Produces predictions in the required format for Kaggle submission.
+
+
+
 
 ## Setup and Requirements
 
@@ -101,6 +105,23 @@ pip install pandas numpy scikit-learn optuna matplotlib seaborn
 ### Data Preprocessing
 
 The first processing steps include handling missing values, encoding categorical variables, and any necessary data cleaning. Additionally, data transformations like log and polynomial features are applied to normalize skewed distributions and capture non-linear relationships.
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
 
 **Code Snippet**:
 
@@ -132,23 +153,8 @@ plt.show()
 ```
 
 *Figure 1: Distribution of Yield*
-![alt text](image-3.png)
 
 **2. Pairplot of Features:**
-
-![alt text](image-4.png)
-
-![alt text](image-5.png)
-
-![alt text](image-6.png)
-
-![alt text](image-7.png)
-
-![alt text](image-8.png)
-
-![alt text](image-9.png)
-
-![alt text](image-10.png)
 
 
 ```python
