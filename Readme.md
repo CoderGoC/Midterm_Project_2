@@ -132,6 +132,7 @@ plt.show()
 ```
 
 *Figure 1: Distribution of Yield*
+![alt text](image-3.png)
 
 **2. Pairplot of Features:**
 
@@ -141,7 +142,22 @@ plt.suptitle('Pairplot of Features', y=1.02)
 plt.show()
 ```
 
+
 *Figure 2: Pairplot of Features*
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
 
 ### Feature Engineering
 
